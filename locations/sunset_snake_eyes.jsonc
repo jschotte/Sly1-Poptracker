@@ -119,7 +119,7 @@
       },
       {
         "name": "Straight to the Top",
-        "access_rules": ["sse_key:3"],
+        "access_rules": ["^$progressive_access|sse_key|3|1"],
         "sections": [
           {
             "name": "Key",
@@ -156,7 +156,7 @@
       },
       {
         "name": "Two to Tango",
-        "access_rules": ["sse_key:3"],
+        "access_rules": ["^$progressive_access|sse_key|3|1"],
         "sections": [
           {
             "name": "Key",
@@ -193,7 +193,7 @@
       },
       {
         "name": "Back Alley Heist",
-        "access_rules": ["sse_key:3"],
+        "access_rules": ["^$progressive_access|sse_key|3|1"],
         "sections": [
           {
             "name": "Key",
@@ -230,7 +230,7 @@
       },
       {
         "name": "Last Call",
-        "access_rules": ["sse_key:7"],
+        "access_rules": ["^$progressive_access|sse_key|7|1"],
         "sections": [
           {
             "name": "Muggshot",

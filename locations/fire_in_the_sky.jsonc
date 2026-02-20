@@ -132,7 +132,7 @@
       },
       {
         "name": "Rapid Fire Assault",
-        "access_rules": ["fits_key:3"],
+        "access_rules": ["^$progressive_access|fits_key|3|1"],
         "sections": [
           {
             "name": "Key",
@@ -149,7 +149,7 @@
       },
       {
         "name": "Desperate Race",
-        "access_rules": ["fits_key:3"],
+        "access_rules": ["^$progressive_access|fits_key|3|1"],
         "sections": [
           {
             "name": "Key",
@@ -166,7 +166,7 @@
       },
       {
         "name": "Duel by the Dragon",
-        "access_rules": ["fits_key:3"],
+        "access_rules": ["^$progressive_access|fits_key|3|1"],
         "sections": [
           {
             "name": "Key",
@@ -203,7 +203,7 @@
       },
       {
         "name": "Flame Fu!",
-        "access_rules": ["fits_key:7"],
+        "access_rules": ["^$progressive_access|fits_key|7|1"],
         "sections": [
           {
             "name": "Panda King",

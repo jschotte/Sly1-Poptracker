@@ -189,7 +189,7 @@
       },
       {
         "name": "Gunboat Graveyard",
-        "access_rules": ["tot_key:3"],
+        "access_rules": ["^$progressive_access|tot_key|3|1"],
         "sections": [
           {
             "name": "Key",
@@ -226,7 +226,7 @@
       },
       {
         "name": "Treasure in the Depths",
-        "access_rules": ["tot_key:3"],
+        "access_rules": ["^$progressive_access|tot_key|3|1"],
         "sections": [
           {
             "name": "Key",
@@ -243,7 +243,7 @@
       },
       {
         "name": "Eye of the Storm",
-        "access_rules": ["tot_key:7"],
+        "access_rules": ["^$progressive_access|tot_key|7|1"],
         "sections": [
           {
             "name": "Raleigh",

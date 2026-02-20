@@ -132,7 +132,7 @@
       },
       {
         "name": "Down Home Cooking",
-        "access_rules": ["vv_key:3"],
+        "access_rules": ["^$progressive_access|vv_key|3|1"],
         "sections": [
           {
             "name": "Key",
@@ -149,7 +149,7 @@
       },
       {
         "name": "Ghastly Voyage",
-        "access_rules": ["vv_key:3"],
+        "access_rules": ["^$progressive_access|vv_key|3|1"],
         "sections": [
           {
             "name": "Key",
@@ -166,7 +166,7 @@
       },
       {
         "name": "Descent into Danger",
-        "access_rules": ["vv_key:3"],
+        "access_rules": ["^$progressive_access|vv_key|3|1"],
         "sections": [
           {
             "name": "Key",

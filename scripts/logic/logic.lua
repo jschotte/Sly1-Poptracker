@@ -12,3 +12,18 @@ end
 function roll_not_required()
     return Tracker:FindObjectForCode("opt_require_roll").CurrentStage == 0
 end
+
+-- function to check if location is accessible based on key number
+function progressive_access(key_code_param, normal_req_param, partial_req_param)
+    local amount = Tracker:ProviderCountForCode(key_code_param)
+    local normal_req = tonumber(normal_req_param)
+    local partial_req = tonumber(partial_req_param)
+    
+    if amount >= normal_req then
+        return AccessibilityLevel.Normal
+    elseif amount >= partial_req then
+        -- can access the location with glitches
+        return AccessibilityLevel.SequenceBreak
+    end
+    return AccessibilityLevel.None
+end
