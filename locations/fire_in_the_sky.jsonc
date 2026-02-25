@@ -41,7 +41,7 @@
       },
       {
         "name": "Flaming Temple of Flame",
-        "access_rules": ["fits_key:1"],
+        "access_rules": ["^$progressive_access|fits_key|1|0"],
         "sections": [
           {
             "name": "Key",
@@ -78,7 +78,7 @@
       },
       {
         "name": "Unseen Foe",
-        "access_rules": ["fits_key:1,progressive_invisibility:1"],
+        "access_rules": ["^$progressive_access|fits_key|1|0,progressive_invisibility:1"],
         "sections": [
           {
             "name": "Key",
@@ -115,7 +115,7 @@
       },
       {
         "name": "King of the Hill",
-        "access_rules": ["fits_key:1"],
+        "access_rules": ["^$progressive_access|fits_key|1|0"],
         "sections": [
           {
             "name": "Key",
@@ -132,7 +132,7 @@
       },
       {
         "name": "Rapid Fire Assault",
-        "access_rules": ["^$progressive_access|fits_key|3|1"],
+        "access_rules": ["^$progressive_access|fits_key|3|0"],
         "sections": [
           {
             "name": "Key",
@@ -149,7 +149,7 @@
       },
       {
         "name": "Desperate Race",
-        "access_rules": ["^$progressive_access|fits_key|3|1"],
+        "access_rules": ["^$progressive_access|fits_key|3|0"],
         "sections": [
           {
             "name": "Key",
@@ -166,7 +166,7 @@
       },
       {
         "name": "Duel by the Dragon",
-        "access_rules": ["^$progressive_access|fits_key|3|1"],
+        "access_rules": ["^$progressive_access|fits_key|3|0"],
         "sections": [
           {
             "name": "Key",
@@ -203,7 +203,7 @@
       },
       {
         "name": "Flame Fu!",
-        "access_rules": ["^$progressive_access|fits_key|7|1"],
+        "access_rules": ["^$progressive_access|fits_key|7|0"],
         "sections": [
           {
             "name": "Panda King",
