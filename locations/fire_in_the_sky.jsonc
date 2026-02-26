@@ -78,7 +78,9 @@
       },
       {
         "name": "Unseen Foe",
-        "access_rules": ["^$progressive_access|fits_key|1|0,progressive_invisibility:1"],
+        "access_rules": [
+          "^$unseen_foe_access"
+        ],
         "sections": [
           {
             "name": "Key",

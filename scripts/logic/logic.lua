@@ -27,3 +27,15 @@ function progressive_access(key_code_param, normal_req_param, partial_req_param)
     end
     return AccessibilityLevel.None
 end
+
+-- function to check access to Unseen Foe
+function unseen_foe_access()
+    local keys = Tracker:ProviderCountForCode("fits_key")
+    local invisibility = Tracker:ProviderCountForCode("progressive_invisibility")
+    
+    if invisibility == 0 or keys == 0 then
+        return AccessibilityLevel.SequenceBreak
+    elseif keys >= 1 and invisibility >= 1 then
+        return AccessibilityLevel.Normal
+    end
+end
